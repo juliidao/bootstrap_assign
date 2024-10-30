@@ -1,0 +1,110 @@
+body{
+    font-family: 'Mitr', sans-serif;;
+    background: #1E3968;
+}
+
+.imglogo {
+    width: 250px;
+    height: auto; 
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.container-fluid {
+    background: #1E3968;
+    margin: 0;
+}
+
+.container-fluid2 {
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between; /* กระจายไอเท็มให้ห่างกันเท่ากันจนเต็มคอนเทนเนอร์ */
+    width: 100%; /* ให้ navbar-nav กินพื้นที่เต็ม */
+}
+
+.nav-item {
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+    border-right: 0.6px solid rgba(255, 255, 255);
+    border-left: 0.6px solid rgba(255, 255, 255);
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0 2px 2px white;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: #26306E;
+}
+
+.navbar-brand {
+    flex-grow: 1; /* Allow the logo to have equal space around it */
+    display: flex;
+    justify-content: center; /* Center the logo inside the brand container */
+}
+
+.nav-item-logsign {
+padding: 10px;
+font-size: 20px;
+}
+
+
+.imgcard1home {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+h4, p {
+    color: black;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 140%;
+    font-weight: 300;
+}
+
+h6 {
+    text-align: center;
+    color: white;
+    font-size: 140%;
+    font-weight: 300;
+}
+
+h7 {
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+h {
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    font-weight: 300;
+}
+

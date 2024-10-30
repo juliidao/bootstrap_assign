@@ -1,0 +1,56 @@
+body{
+    font-family: 'Mitr', sans-serif;;
+    background: #edb95e;
+    color: white;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+h4, p {
+    color: black;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 140%;
+    font-weight: 300;
+}
+
+h6 {
+    text-align: center;
+    color: white;
+    font-size: 140%;
+    font-weight: 300;
+}
+
+.form-label {
+    color:white;
+}
+
+.form-text {
+    color: white;
+}
+.centered-container {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box {
+    width: 100%;
+    max-width: 600px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
